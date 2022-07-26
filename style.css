@@ -1,0 +1,163 @@
+@media screen and (min-width: 480px) {
+  #leftsidebar {width: 200px; float: left;}
+  #main {margin-left: 250px;}
+  float: none;
+  width: 100%;
+}
+
+.nav-resp{
+  background-color:rgb(31 41 55);
+  color: #f2f2f2;
+  padding: 20px 20px;
+  text-decoration: none;
+  font-family: 'Caveat', cursiva;
+}
+.item-nav{
+  float: left;
+  font-size: 25px;
+  margin: -5 20px;
+}
+.nav-1{
+  text-align: center;
+  float: center;
+ margin: 0 20px;
+ text-align: 50%;
+ position: relative;
+ color:#2fe1f9;
+text-decoration: none;
+ font-size: 18px;
+}
+.nav-1:hover {
+  background-color: #cce2f0;
+}
+.nav-2{
+  margin: -10 20px;
+text-align: 50%;
+ float: left;
+ color:#2fe1f9;
+text-decoration: none;
+ font-size: 18px;
+}
+.active{
+  margin: -10px;
+  text-align: 50%;
+  float:left;
+  color: white;
+  text-decoration: none;
+ font-size: 18px;
+  
+}
+body {
+    position: relative;
+  }
+  ul.nav-pills {
+    top: 20px;
+    position: fixed;
+  }
+  div.col-sm-9 div {
+    height: 250px;
+    font-size: 28px;
+  }
+.center {
+  text-align: center;
+}
+
+.pagination {
+  display: inline-block;
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+  border: 1px solid #ddd;
+  margin: 0 4px;
+}
+.pagination a.active {
+  background-color: black;
+  color: white;
+  border: 1px solid #black;
+}
+.footer{
+  width: 100%;
+  background-color: rgb(31 41 55);
+  color: white;
+  text-align: center;
+  padding: 3px;
+  display: block;
+}
+.cards{
+  padding:20px;
+  margin:5px;
+}
+.pagination a:hover:not(.active) {background-color: #36abdd66;}
+#nav-1 hover: {background-color: #41bcec66;}
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+.media-body{
+ font-family: 'Caveat', cursiva; 
+  color: black;
+  font-size: 16px;
+  text-align:justify;
+}
+.missao-1{
+  font-size: 25px;
+  text-align: center;
+  font-family: 'Lobster', cursive
+}
+.missao-2{
+  padding: 0 20px;
+}
+.missao-3{
+  text-align:center;
+  text-size:15px;
+}
+.conteudo_grid {
+  display: grid;
+  gap: 0px;
+  justify-items: center;
+}
+
+.item_grid {
+  justify-items: center;
+  text-align: center;
+  font-size: 15px;
+  margin:0px;
+}
+
+.img_grid {
+  display: inline-block;
+  width: 85%;
+  border-radius:80px;
+}
+.kfoto{
+  grid-column: 1;
+  grid-row: 1;
+  width: 65%;
+}
+
+.afoto {
+  grid-column: 2;
+  grid-row: 1;
+  width: 65%;
+}
+
+.ifoto{
+  grid-column: 4;
+  grid-row: 1;
+  width: 65%;
+}
+
+.sfoto{
+  grid-column: 3;
+  grid-row: 1;
+  width: 65%;
+}
+.efoto{
+  grid-column: 5;
+  grid-row: 1;
+  width: 65%;
+}
