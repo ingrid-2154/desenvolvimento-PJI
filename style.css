@@ -1,3 +1,5 @@
+
+
 @media screen and (min-width: 480px) {
   #leftsidebar {width: 200px; float: left;}
   #main {margin-left: 250px;}
@@ -115,9 +117,19 @@ body {font-family: Arial, Helvetica, sans-serif;}
   text-align:center;
   text-size:15px;
 }
+.eq-1{
+ padding: 10 20px;
+  font-family: 'Caveat', cursiva; 
+  color: black;
+  font-size: 30px;
+  text-align:center;
+ 
+  
+}
 .conteudo_grid {
+   padding: 10 20px;
   display: grid;
-  gap: 0px;
+  gap: 10px;
   justify-items: center;
 }
 
@@ -148,7 +160,8 @@ body {font-family: Arial, Helvetica, sans-serif;}
 .ifoto{
   grid-column: 4;
   grid-row: 1;
-  width: 65%;
+  width:65%;
+ 
 }
 
 .sfoto{
@@ -160,4 +173,19 @@ body {font-family: Arial, Helvetica, sans-serif;}
   grid-column: 5;
   grid-row: 1;
   width: 65%;
+}
+.lfoto{
+grid-column: 2;
+  grid-row: 2;
+  width: 65%;  
+}
+.ffoto{
+grid-column: 3;
+  grid-row: 2;
+  width: 65%;  
+}
+.ivfoto{
+ grid-column: 4;
+  grid-row: 2;
+  width: 65%; 
 }
