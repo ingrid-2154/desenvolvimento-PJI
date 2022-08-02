@@ -1,6 +1,4 @@
-
-
-@media screen and (min-width: 480px) {
+* @media screen and (min-width: 480px) {
   #leftsidebar {width: 200px; float: left;}
   #main {margin-left: 250px;}
   float: none;
@@ -20,14 +18,16 @@
   margin: -5 20px;
 }
 .nav-1{
-  text-align: center;
-  float: center;
+text-align: center;
+ float: center;
  margin: 0 20px;
  text-align: 50%;
  position: relative;
  color:#2fe1f9;
 text-decoration: none;
- font-size: 18px;
+ font-size: 20px;
+display: inline;
+ margin-left: 60px;
 }
 .nav-1:hover {
   background-color: #cce2f0;
@@ -188,4 +188,12 @@ grid-column: 3;
  grid-column: 4;
   grid-row: 2;
   width: 65%; 
+}
+.ft-1{
+ width: 100%;
+  background-color: rgb(31 41 55);
+  color: white;
+  text-align: center;
+  padding: 3px;
+  display: block;
 }
