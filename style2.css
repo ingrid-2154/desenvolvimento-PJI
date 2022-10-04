@@ -1,0 +1,19 @@
+.ft-1{
+ width: 100%;
+  background-color: rgb(31 41 55);
+  color: white;
+  text-align: center;
+  padding: .3px;
+  display: block;
+}
+.v-l3{
+   text-align: justify;
+  line-height: 1.8em;
+  font-size:17px;
+  font-family: 'Caveat', cursiva;
+}
+.v-l2{
+  text-align:center;
+  margin-top: 0.5cm;
+  
+}

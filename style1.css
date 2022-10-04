@@ -31,3 +31,26 @@ body {
   color: white;
   border: 1px solid #black;
 }
+
+.titulo-acervo{
+  color:black;
+  font-size:26px;
+  margin:5 3px;
+  line-height:2;
+}
+
+.texto-acervo{
+  font-size: 17px;
+  color: black;
+  text-align:justify;
+  margin:5 3px;
+  line-height:33px;
+}
+.ft-1{
+ width: 100%;
+  background-color: rgb(31 41 55);
+  color: white;
+  text-align: center;
+  padding: .3px;
+  display: block;
+}
